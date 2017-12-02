@@ -20,10 +20,10 @@ def sumCaptcha(numstr):
 
 #pytest validation unit test
 def test_sumCaptcha():
-    assert sumCaptcha("1122") == 3
-    assert sumCaptcha("1111") == 4
-    assert sumCaptcha("1234") == 0
-    assert sumCaptcha("91212129") == 9
+    assert sumCaptcha("1122") == 3, "Sum Captcha Unit Test 1"
+    assert sumCaptcha("1111") == 4, "Sum Captcha Unit Test 2"
+    assert sumCaptcha("1234") == 0, "Sum Captcha Unit Test 3"
+    assert sumCaptcha("91212129") == 9, "Sum Captcha Unit Test 4"
 
 def halfRoundSumCaptcha(numstr):
     numstr = numstr.strip()
