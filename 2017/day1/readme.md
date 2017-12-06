@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-
- http://adventofcode.com/2017/day/1
-
- Completed by Topher Chung
- Date: 12/1/2017
-
+<pre>
  --- Day 1: Inverse Captcha ---
 
  The night before Christmas, one of Santa's Elves calls you in a panic. "The printer's broken! We can't print the Naughty or Nice List!" By the time you make it to sub-basement 17, there are only a few minutes until midnight. "We have a big problem," she says; "there must be almost fifty bugs in this system, but nothing else can print The List. Stand in this square, quick! There's no time to explain; if you can convince them to pay you in stars, you'll be able to--" She pulls a lever and the world goes blurry.
@@ -47,3 +41,4 @@ What is the solution to your new captcha?
  Your puzzle answer was 1244.
 
  Both parts of this puzzle are complete! They provide two gold stars: **
+</pre>
