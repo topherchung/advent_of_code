@@ -1,3 +1,4 @@
+<pre-wrap>
 --- Day 2: Corruption Checksum ---
 
 As you walk through the door, a glowing humanoid shape yells in your direction. "You there! Your state appears to be idle. Come help us repair the corruption in this spreadsheet - if we take another millisecond, we'll have to display an hourglass cursor!"
@@ -41,3 +42,4 @@ What is the sum of each row's result in your puzzle input?
 Your puzzle answer was 282.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
+</pre-wrap>
