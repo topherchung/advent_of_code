@@ -1,0 +1,21 @@
+{
+  "name": "aoc",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day": "runDay.bat",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "performance": "^1.4.0"
+  }
+}
