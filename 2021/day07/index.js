@@ -33,7 +33,7 @@ const checkFuelUsePart2 =  (pos) => {
     return fuelSum
 }
 
-const serachForOptimalPosition = (checkFuelMethod) => {
+const searchForOptimalPosition = (checkFuelMethod) => {
     //binary search the position range until you find the lowest possible position
 
     let curMid = (max - min)/2
@@ -41,9 +41,9 @@ const serachForOptimalPosition = (checkFuelMethod) => {
     let curMax = max
     let notFound = true
     while  (true){
-        let midCheck = checkFuelMethod(input, curMid)
-        let leftCheck = checkFuelMethod(input, curMid - Math.round((curMid-curMin)/2))
-        let rightCheck = checkFuelMethod(input, curMid + Math.round((curMax-curMid)/2))
+        let midCheck = checkFuelMethod(curMid)
+        let leftCheck = checkFuelMethod(curMid - Math.round((curMid-curMin)/2))
+        let rightCheck = checkFuelMethod(curMid + Math.round((curMax-curMid)/2))
 
         if (leftCheck < rightCheck){
             curMax = curMid
@@ -64,10 +64,10 @@ const serachForOptimalPosition = (checkFuelMethod) => {
 }
 
 const part1 = () => {
-   return serachForOptimalPosition(checkFuelUsePart1)
+   return searchForOptimalPosition(checkFuelUsePart1)
 }
 const part2 = () => {
-    return serachForOptimalPosition(checkFuelUsePart2)
+    return searchForOptimalPosition(checkFuelUsePart2)
 }
 
 console.log(`Advent of Code 2021 - Day ` + day)
