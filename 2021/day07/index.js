@@ -16,14 +16,14 @@ input.map(x => {
 
 console.clear()
 
-const checkFuelUsePart1 =  (searchArr, pos) => {
+const checkFuelUsePart1 =  (pos) => {
     let fuelSum = 0
     input.map(x => {
         fuelSum += Math.abs(x-pos)
     })
     return fuelSum
 }
-const checkFuelUsePart2 =  (searchArr, pos) => {
+const checkFuelUsePart2 =  (pos) => {
     let fuelSum = 0
     input.map(x => {
         let distance = Math.abs(x-pos)
